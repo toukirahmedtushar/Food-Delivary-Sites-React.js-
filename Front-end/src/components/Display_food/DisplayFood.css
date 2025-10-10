@@ -1,0 +1,13 @@
+.display-food{
+    margin-top: 5px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+.view-menu{
+  text-align: left;
+}
+.view-menu h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.view-menu p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.view-menu-items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  
+  padding: 2rem 0;
+}
+.view-menu-items::-webkit-scrollbar {
+  display: none;
+}
+.view-menu-item img{
+    width:auto ;
+    height: 12rem;
+    padding: .7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .1s;
+}
+.view-menu-item h2 {
+    font-size: 2rem;
+    margin-top: rem;
+    text-align: center;
+    cursor: pointer;
+}
+.view-menu-item .active{
+    border: 3px solid tomato;
+    
+}
